@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+div {
+    width: 100%;
+}
+
+#gauche {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+#logo {
+    width: 50%;
+}
+
+#droite {
+    width: 70%;
+    display: inline-block;
+    float: left; 
+}
+
+.menu {
+    margin: 5% 5% 5% 0%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#recherche {
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#barreUE {
+    width: 100%;
+}
+
+#UE {
+    border: none;
+    color: white;
+    background-color: black;
+    width: 25%;
+    float: left;
+    height: 75px;
+    cursor: pointer;
+}
+
+#UE:hover {
+    background-color: orange;
+}
+
+#barreChapitre{
+    width: 30%;
+}
+
+#chapitre {
+    border: none;
+    color: black;
+    background-color: #D6DBDF;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#chapitre:hover {
+    background-color: orange;
+}
+
+#contenu {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
